@@ -11,7 +11,7 @@ The **input size** is (128,128,3)
 **Testing Image Set** is of 1419 image files
 
 The model is trained for 50 epoch with batch size of 32, Adam optimizer is used with categorical crossentropy loss.It gives the training Accuracy and Validation Accuracy  of **94.67% and 96%** respectively.
-The Testing Accuracy is**97.18% **
+The Testing Accuracy is **97.18%**
 
 **Attachments:**
 
