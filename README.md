@@ -3,15 +3,15 @@ This is a simple deep learning model to classify among the traffic sign boards f
 
 **About Dataset:** The Dataset is taken from BelgiumTS Classification data. Which has two seprate folders for training and testing data along with its labels. The training data set consists of 4575 images in ppm format and testing data consist of 2520 images from different 62 classes of traffic sign boards.
 
-A Simple 2D CNN model is used to classify among the different classes to detect traffic sign boards. The model consist of 5 conv layer with maxpooling layer and 2 fully connected layer and a softmax layer. we have used ReLU as activation function and Dropout layer is used for regularization.
+**About Model:** A Simple 2D CNN model is used to classify among the different classes to detect traffic sign boards. The model consist of 5 conv layer with maxpooling layer and 2 fully connected layer and a softmax layer. we have used ReLU as activation function and Dropout layer is used for regularization.
 
-The input size is (128,128,3)
-Training Image Set is of 4540 image files
-validation Image Set is of 1136 image files
-Testing Image Set is of 1419 image files
+The **input size** is (128,128,3)
+**Training Image Set** is of 4540 image files
+**validation Image Set** is of 1136 image files
+**Testing Image Set** is of 1419 image files
 
-The model is trained for 50 epoch with batch size of 32, Adam optimizer is used with categorical crossentropy loss.It gives the training Accuracy and Validation Accuracy  of 94.67% and 96% respectively.
-The Testing Accuracy is 97.18% 
+The model is trained for 50 epoch with batch size of 32, Adam optimizer is used with categorical crossentropy loss.It gives the training Accuracy and Validation Accuracy  of **94.67% and 96%** respectively.
+The Testing Accuracy is**97.18% **
 
 **Attachments:**
 
