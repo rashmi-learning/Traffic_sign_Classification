@@ -1,6 +1,7 @@
 # Traffic_sign_Classification
 This is a simple deep learning model to classify among the traffic sign boards from BelgiumTS dataset. 
 About Dataset: The Dataset is taken from BelgiumTS Classification data. Which has two seprate folders for training and testing data along with its labels. The training data set consists of 4575 images in ppm format and testing data consist of 2520 images from different 62 classes of traffic sign boards.
+
 A Simple 2D CNN model is used to classify among the different classes to detect traffic sig boards. The model consist of 5 conv layer with maxpooling layer and 2 fully connected layer and a softmax layer. we have used ReLU as activation functiona and Dropout layer is used for regularization. 
 The input size is (128,128,3)
 Training Image Set is of 4540 image files
